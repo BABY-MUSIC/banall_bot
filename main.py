@@ -10,7 +10,7 @@ TARGET_BOT_USERNAME = "@EnhancerOPbot"  # Target bot's username
 # Replace with your API ID, API Hash, and string session
 api_id = "16457832"  # Your API ID from Telegram
 api_hash = "3030874d0befdb5d05597deacc3e83ab"  # Your API Hash from Telegram
-string_session = "BQD7IGgAU01QJJfd2Pqwr4mcAlKnateLPNSe4LkrGmGOY7IpnQFk2GBAeZzAPOH4wEhSFArwbMv7G4zmEgBtvTGVAWmNk05cNgy6HC6Q8eDvFAjc8ED9qeq9ERkSulSklJOwWoGzZx7VVLSNE2cOd4K2-aiL-wrNcC_QjAN_FcI6GNrDzZZdvtORvNzSxH_o3OucLvoIsRdt-rMSyikkJJMyELHdKETJCWVHQPfqR2t7IGUT0UrVYdfFKNZcwaqxqnK60jeRi3f6pUmXg11xhxNIawLXaKZc_hw5MoJ5KdkduLmW0Mtbh5anTWi8t1quXQvZhc4Mons8uvgRf-dwQRmPFtz8rgAAAAGpD8oQAA"  # String session from Telethon
+string_session = "BQGLt2sAIdtxgmJUISz6GSqsZGkwaXJfuVN7YDbBpI6wXyidyh2wbQ_G_32rVb9peyAyHXSE1GmtzJ26biDjTMIK-qepKCXzLkTdmGLTvGpyqpExI7XFIKe1rDWJxKR7PwyYVOBg9cjsU-kUOjuym8tQxohzkmzufBHcaH9Ftj45UD2oagulfyufPBCkw0gaGvAlRSZVdEg2Uw4itTV4dHV9vC-n7gWMxRMUZpEBydkDYNAF-FM4m295yT23lWN7gf-HMuNb3DGREVhpzMQnKJUi9FWXD13vtJwILNUUHOSDfRhK8BJVhnLocOFYQrCjpk-rPf9XPsjnApJMwsdTEkxuMh3ORwAAAAHL2ocpAA"  # String session from Telethon
 
 # Create Telegram Client with session
 with TelegramClient(StringSession(string_session), api_id, api_hash) as client:
