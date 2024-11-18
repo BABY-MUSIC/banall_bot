@@ -46,7 +46,7 @@ def main():
 
     # Add handler for all messages
     dp = updater.dispatcher
-    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_message))
+    dp.add_handler(MessageHandler(filters.text & ~filters.command, handle_message))
 
     # Start the bot
     updater.start_polling()
