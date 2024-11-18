@@ -1,5 +1,5 @@
 from telegram import Update
-from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
+from telegram.ext import Updater, MessageHandler, filters, CallbackContext
 import requests
 
 # Replace with your bot's API Token and target bot's username
